@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	
+	"name": "News Feed",
+	"description": "This extension serves you with top stories from around the world.",
+	"version": "1.0",
+
+	"permissions": [
+		"http://api.feedzilla.com/",
+		"tabs"
+	],
+	"browser_action":{
+		"default_icon": "index.jpeg",
+		"default_popup": "popup.html"
+		}
+}
